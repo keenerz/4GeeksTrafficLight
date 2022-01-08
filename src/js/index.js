@@ -9,4 +9,16 @@ import "../styles/index.css";
 import Home from "./component/home.jsx";
 
 //render your react application
+//state
+// let hColor = "green";
+
+// let setHighlightedColor = function (newValue) {
+// 	hColor = newValue;
+// 	//newValue = "green", "yellow", "red"
+// };
+// function TrafficLight(props) {
+// 	return `<div class="container">
+//         `;
+// }
+
 ReactDOM.render(<Home />, document.querySelector("#app"));
